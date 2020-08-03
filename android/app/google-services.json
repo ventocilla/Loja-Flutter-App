@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "545443745988",
+    "firebase_url": "https://loja-flutter-app-d23aa.firebaseio.com",
+    "project_id": "loja-flutter-app-d23aa",
+    "storage_bucket": "loja-flutter-app-d23aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545443745988:android:e40572323da5c124fdf991",
+        "android_client_info": {
+          "package_name": "br.com.leoventocilla.loja_flutter_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545443745988-c9s1nsolvdvmlkqm2qeapvtdhh6lchp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWle17n4KYGicT0tboNHSgZGsfdzWPjHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545443745988-c9s1nsolvdvmlkqm2qeapvtdhh6lchp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

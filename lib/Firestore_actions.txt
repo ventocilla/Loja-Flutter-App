@@ -1,0 +1,40 @@
+  import 'package:cloud_firestore/cloud_firestore.dart';
+
+  // Escrevendo Dados no Firebase ...
+  //Firestore.instance.collection('pedidos').add({'preco': '10.50', 'usuario': 'Leo'});
+  //Firestore.instance.collection('user').document('1').setData({'nome': 'LV'});
+  //Firestore.instance.collection('user').document('1').updateData({'cidade': 'Rio'});
+  //Firestore.instance.document('user/1').updateData({'cep': '22430-050'});
+  // - - -
+
+  // Lendo Dados no Firebase ...
+  /*
+  // Snapshot (foto)
+  DocumentSnapshot document = await Firestore.instance
+      .collection('user').document('1').get();
+  print('Document: ${document.data}');
+  print('Document: ${document.data['nome']}');
+  */
+
+  // Snapshot (escutando mudanças)
+  /*
+  Firestore.instance.collection('user').document('1').snapshots().listen((document) {
+    print(document.data);
+  });
+  */
+  /*
+  // #1 - Lendo único documento ...
+  QuerySnapshot snapshots = await Firestore.instance.collection('user').getDocuments();
+  //print(snapshots.documents);
+  for(DocumentSnapshot document in snapshots.documents){
+    print(document.data);
+  }
+  */
+  /*
+  // #2 - Lendo todos os documentos ...
+  Firestore.instance.collection('user').snapshots().listen((snapshot) {
+    for(DocumentSnapshot document in snapshot.documents){
+      print(document.data);
+    }
+  });
+  */
